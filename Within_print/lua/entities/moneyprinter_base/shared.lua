@@ -1,12 +1,9 @@
-/*---------------------------------------------------------------------------
-Nacho's Money Printer
----------------------------------------------------------------------------*/
 include("config.lua")
 ENT.Type = "anim"
 ENT.Base = "base_gmodentity"
 ENT.PrintName = Config.MoneyPrinterName
-ENT.Author = "TheGreatNacho"
-ENT.Category = "Advanced Moneyprinter"
+ENT.Author = "Caden Ox"
+ENT.Category = "WithinRp MoneyPrinter"
 ENT.Spawnable = true
 ENT.AdminSpawnable = true
 MaxHeat = Config.DefaultHeatAmount

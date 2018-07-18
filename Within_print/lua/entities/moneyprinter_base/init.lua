@@ -1,6 +1,3 @@
-/*---------------------------------------------------------------------------
-Nacho's Money Printer
----------------------------------------------------------------------------*/
 AddCSLuaFile("cl_init.lua")
 AddCSLuaFile("shared.lua")
 AddCSLuaFile("config.lua")
@@ -55,7 +52,7 @@ function ENT:Initialize()
 	self:SetPToggle(true)
 	self:SetCooler(false)
 	self:SetOC(false)
-	self:SetPID("adv_moneyprinter")
+	self:SetPID("moneyprinter")
 end
 
 function ENT:OnTakeDamage(dmg)

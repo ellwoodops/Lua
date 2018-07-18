@@ -1,5 +1,3 @@
---Config.lua--
---Don't even think about touching this top stuff. You'll just break something.--
 Config = {}
 Config.Level = {}
 Config.LevelRank = {}

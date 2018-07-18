@@ -1,12 +1,9 @@
-/*---------------------------------------------------------------------------
-Nacho's Money Printer
----------------------------------------------------------------------------*/
 include("shared.lua")
 include("config.lua")
 function CanLevel(ply)
 	for k,v in pairs(Config.CanLevelRanks) do
-		if not (ply:GetUserGroup() == nil) then
-			if ply:GetUserGroup() == v then
+		if not (ply:GetRank() == nil) then
+			if ply:GetRank() == v then
 				return true
 			end
 		end
