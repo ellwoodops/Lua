@@ -28,7 +28,7 @@ Config.XPBoost = 4
 
 --ULX only
 //Which ranks have the levelup button displayed on their printer menu.
-Config.CanLevelRanks = {"owner", "co-owner", "superadmin", "coder"}
+Config.CanLevelRanks = {"founder", "dev"}
 
 //Does the printer require power to run?
 Config.RequiresPower = false
@@ -48,7 +48,7 @@ The ranks to cap.
 ]]--
 AddRankMaxLevel("user", 5)
 AddRankMaxLevel("coder", 7)
-AddRankMaxLevel("owner", 15)
+AddRankMaxLevel("founder", 15)
 
 AddLevelColor(0,145,200)
 AddLevelColor(255,0,0)
