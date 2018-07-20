@@ -26,7 +26,7 @@ Config.MaxLevel = 10
 // The amount of XP you gain per print at level 1										
 Config.XPBoost = 4							
 
---ULX only
+--ULX only, Lets try to make this Serverguard??
 //Which ranks have the levelup button displayed on their printer menu.
 Config.CanLevelRanks = {"founder", "dev"}
 
